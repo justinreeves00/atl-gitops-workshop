@@ -18,13 +18,14 @@ org_settings:
   host_expiry_settings:
     host_expiry_enabled: true
     host_expiry_window: 30
-  webhook_settings:
-    activites_webhook:
-      enable_activities_webhook: true
-      destination_url: https://example.org/webhook_handler 
+
 
   org_info:
     org_name: Justin's Mega Awesome Fleet
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://example.org/webhook_handler 
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:

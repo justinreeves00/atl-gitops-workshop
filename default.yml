@@ -20,9 +20,13 @@ org_settings:
     host_expirty_window: 30
 
   org_info:
-    org_name: Fleet
+    org_name: Justin's Mega Awesome Fleet
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
     enable_host_users: true
     enable_software_inventory: true
+  webhook_settings:
+    activites_webhook:
+      enable_activities_webhook: true
+      destination_url: https://example.org/webhook_handler
